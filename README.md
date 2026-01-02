@@ -43,7 +43,7 @@ INTRODUCTION : Subdoamin finding tool passively the main feature of this tool is
 - libcurl development libraries
 - Tor (optional, for privacy mode)
 
-  ![Passive DNS Tool Screenshot](./tool.JPG)
+ 
 
 ### Installation:
 ```bash
@@ -70,8 +70,10 @@ sudo systemctl enable tor
 
 # Run tool give domain and kali wordlist 
 ./subdomainscanner example.com usr/share/seclists/Discover/DNS/subdomains-top1million-110000.txt
+```
+ ![Passive DNS Tool Screenshot](./tool.JPG)
 
-
+```bash
 # To see requests are going through tor network or not
 sudo tcpdump -i lo -n "port 9050" -v
 
