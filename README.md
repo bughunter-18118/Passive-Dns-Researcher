@@ -69,7 +69,7 @@ sudo systemctl enable tor
 # Run tool give domain and kali wordlist 
 ./subdomainscanner example.com usr/share/seclists/Discover/DNS/subdomains-top1million-110000.txt
 
-![iamge alt](https://github.com/bughunter-18118/Passive-Dns-Researcher/blob/043c4453c35d5b639186237800c851fc9c10b5ac/tool.JPG)
+![image alt](https://github.com/bughunter-18118/Passive-Dns-Researcher/blob/043c4453c35d5b639186237800c851fc9c10b5ac/tool.JPG)
 
 # To see requests are going through tor network or not
 sudo tcpdump -i lo -n "port 9050" -v
