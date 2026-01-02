@@ -35,7 +35,7 @@ INTRODUCTION : Subdoamin finding tool passively the main feature of this tool is
 - **Educational Prompts**: Requires acknowledgment of ethical use
 - **Detailed Logging**: Understand what's happening at each step
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites:
 - GCC compiler
@@ -74,7 +74,7 @@ sudo systemctl enable tor
  ![Passive DNS Tool Screenshot](./tool.JPG)
 
 ```bash
-# To see requests are going through tor network or not
+# To check requests are going through tor network or not
 sudo tcpdump -i lo -n "port 9050" -v
 
 *You will see the requests going through tor network*
