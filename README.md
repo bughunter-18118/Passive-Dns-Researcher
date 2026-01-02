@@ -61,13 +61,14 @@ gcc shadowscan.c -o subdomainscanner -lcurl
 sudo apt install tor -y
 sudo nano /etc/tor/torrc
 
-*In opened file find word ControlPort using ctrl+b and search word and if she hash in front of Control Port remove the hash from in front of the Control Port.
+*In opened file find word ControlPort using ctrl+b and search word and if it has hash in front of Control Port remove the hash from in front of the Control Port.
 *And do same with word 'CookieAunthetication' and SocksPort and after doing this press button ctrl+x type y and press enter button*
 
 # Enable tor 
 sudo systemctl start tor
 sudo systemctl enable tor
-
+```
+```bash
 # Run tool give domain and kali wordlist 
 ./subdomainscanner example.com usr/share/seclists/Discover/DNS/subdomains-top1million-110000.txt
 ```
@@ -78,7 +79,7 @@ sudo systemctl enable tor
 sudo tcpdump -i lo -n "port 9050" -v
 
 *You will see the requests going through tor network*
-
+```
 
 
 
