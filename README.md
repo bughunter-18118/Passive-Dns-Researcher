@@ -1,4 +1,4 @@
-# Passive DNS Educational Tool
+# Passive subdomain finder Tool with Anonymity
 
 INTRODUCTION : Subdoamin finding tool passively the main feature of this tool is that the all requests send through tor network it send one request in 4 to 5 second it is slow but user stay total anonmous
 
