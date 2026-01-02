@@ -27,7 +27,6 @@ INTRODUCTION : Subdoamin finding tool passively the main feature of this tool is
 - **Privacy Focused**: Optional Tor integration for privacy 
 - **Wordlist Support**: Learn about common subdomain patterns
 - **Color-coded Output**: Clear visual feedback for learning
-- **File Export**: Save results for analysis
 
 ### Technical Features:
 - **Pure C Implementation**: Fast, lightweight, no dependencies
